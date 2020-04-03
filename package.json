@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Stephen O'Connor",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/stephen-oconnor/React-Boilerplate/issues"
   },
-  "homepage": "https://github.com/stephen-oconnor/React-Boilerplate#readme"
+  "homepage": "https://github.com/stephen-oconnor/React-Boilerplate#readme",
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
 }

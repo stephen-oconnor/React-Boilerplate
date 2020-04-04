@@ -5,24 +5,24 @@ const Warning = React.lazy(() => import('./Warning'));
 
 class App extends Component {
 	state = {
-		count: 0
+		count: 0,
 	};
 
 	render() {
 		const { count } = this.state;
 
 		return (
-			<div>
-				<h3>React App</h3>
-				<h4 className={count > 10 ? 'warning' : null}>Count: {count}</h4>
-				<button onClick={() => this.setState(state => ({ count: state.count + 1 }))}>+</button>
-				<button onClick={() => this.setState(state => ({ count: state.count - 1 }))}>-</button>
+			<main role="main">
+				<h1>React App</h1>
+				<h2 className={count > 10 ? 'warning' : null}>Count: {count}</h2>
+				<button onClick={() => this.setState((state) => ({ count: state.count + 1 }))}>+</button>
+				<button onClick={() => this.setState((state) => ({ count: state.count - 1 }))}>-</button>
 				{count > 10 ? (
 					<Suspense fallback={null}>
 						<Warning />
 					</Suspense>
 				) : null}
-			</div>
+			</main>
 		);
 	}
 }

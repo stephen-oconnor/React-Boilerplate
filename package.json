@@ -1,49 +1,51 @@
 {
-  "name": "modern-javascript-tooling-with-react",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "webpack --config webpack.config.prod.js",
-    "dev": "webpack-dev-server --open --config webpack.config.dev.js",
-    "dev:hot": "npm run dev -- --hot",
-    "test": "jest"
-  },
-  "author": "Stephen O'Connor",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stephen-oconnor/React-Boilerplate.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/stephen-oconnor/React-Boilerplate/issues"
-  },
-  "homepage": "https://github.com/stephen-oconnor/React-Boilerplate#readme",
-  "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/preset-env": "^7.9.0",
-    "@babel/preset-react": "^7.9.4",
-    "babel-loader": "^8.1.0",
-    "css-loader": "^3.4.2",
-    "html-webpack-plugin": "^4.0.4",
-    "jest": "^25.2.7",
-    "style-loader": "^1.1.3",
-    "webpack": "^4.42.1",
-    "webpack-bundle-analyzer": "^3.6.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3",
-    "webpack-merge": "^4.2.2"
-  },
-  "dependencies": {
-    "@hot-loader/react-dom": "^16.13.0",
-    "core-js": "^3.6.4",
-    "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-hot-loader": "^4.12.20",
-    "regenerator-runtime": "^0.13.5"
-  }
+	"name": "modern-javascript-tooling-with-react",
+	"version": "0.1.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack --config webpack.config.prod.js",
+		"dev": "webpack-dev-server --open --config webpack.config.dev.js",
+		"dev:hot": "npm run dev -- --hot",
+		"test": "jest"
+	},
+	"author": "Stephen O'Connor",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/stephen-oconnor/React-Boilerplate.git"
+	},
+	"keywords": [],
+	"bugs": {
+		"url": "https://github.com/stephen-oconnor/React-Boilerplate/issues"
+	},
+	"homepage": "https://github.com/stephen-oconnor/React-Boilerplate#readme",
+	"devDependencies": {
+		"@babel/cli": "^7.8.4",
+		"@babel/core": "^7.9.0",
+		"@babel/plugin-proposal-class-properties": "^7.8.3",
+		"@babel/preset-env": "^7.9.0",
+		"@babel/preset-react": "^7.9.4",
+		"@testing-library/jest-dom": "^5.3.0",
+		"@testing-library/react": "^10.0.2",
+		"babel-loader": "^8.1.0",
+		"css-loader": "^3.4.2",
+		"html-webpack-plugin": "^4.0.4",
+		"jest": "^25.2.7",
+		"style-loader": "^1.1.3",
+		"webpack": "^4.42.1",
+		"webpack-bundle-analyzer": "^3.6.1",
+		"webpack-cli": "^3.3.11",
+		"webpack-dev-server": "^3.10.3",
+		"webpack-merge": "^4.2.2"
+	},
+	"dependencies": {
+		"@hot-loader/react-dom": "^16.13.0",
+		"core-js": "^3.6.4",
+		"prop-types": "^15.7.2",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-hot-loader": "^4.12.20",
+		"regenerator-runtime": "^0.13.5"
+	}
 }

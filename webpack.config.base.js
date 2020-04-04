@@ -7,6 +7,11 @@ module.exports = {
     path: path.join(__dirname, "dist"),
     filename: "app.bundle.js"
   },
+  resolve: {
+    alias: {
+      "react-dom": "@hot-loader/react-dom"
+    }
+  },
   module: {
     rules: [
       {

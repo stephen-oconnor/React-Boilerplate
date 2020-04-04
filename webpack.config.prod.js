@@ -8,11 +8,11 @@ module.exports = merge(baseConfig, {
 		new BundleAnalyzerPlugin({
 			analyzerMode: 'static',
 			openAnalyzer: false,
-			reportFilename: 'bundle-sizes.html'
-		})
+			reportFilename: 'bundle-sizes.html',
+		}),
 	],
 	externals: {
 		react: 'React',
-		'react-dom': 'ReactDOM'
-	}
+		'react-dom': 'ReactDOM',
+	},
 });

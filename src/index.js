@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
-import App from './App';
-import './styles.css';
-import DefaultErrorBoundary from './DefaultErrorBoundary';
+import App from './components/App/App';
+import './styles.module.scss';
+import DefaultErrorBoundary from './components/ErrorBoundary/DefaultErrorBoundary';
 
 if (process.env.NODE_ENV !== 'production') {
 	var axe = require('react-axe');
